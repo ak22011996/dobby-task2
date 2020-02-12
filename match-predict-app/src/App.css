@@ -1,0 +1,10 @@
+input,button{
+	margin-top:20px;
+    margin-left:20px;
+	font-size: 18px;
+	color:#c21818;
+	border-color:#b3ffcc;
+}
+button:hover {
+  background-color: #ecb3ff;
+}
