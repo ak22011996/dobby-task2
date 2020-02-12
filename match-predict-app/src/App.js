@@ -66,7 +66,7 @@ export default class App extends React.Component {
 		this.getTableDataFromWeb();
 		return (
 			<div >
-				<h1 style={{color:"blue"}}>Enter the club name to pridict Result</h1>
+				<h1 style={{color:"blue"}}>Enter the club name to predict Result</h1>
 				<input id="club1Id" placeholder="Enter Club Name"></input>
 				<input id="club2Id" placeholder="Enter Club Name"></input>
 				<button id="callButton" onClick={()=>this.predictMatch()}>Predict</button>
